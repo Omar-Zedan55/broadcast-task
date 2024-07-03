@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+100
+
+<body>
+    <div class="navbaar py-3">
+        <nav class="navbar navbar-expand-lg bg-transparent">
+            <div class="container px-5   ">
+                <a class="navbar-brand" href="#">
+                    <div class="d-flex"><img class="logo" src="./imgs/logo@2x.png" alt="">
+                        <div>
+                            <h3 class="weather">Weather</h3>
+                            <p class="tagline">tagline goes here</p>
+                        </div>
+                    </div>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation"> <span class="navbar-toggler-icon">
+                        <div class="iconborder d-flex justify-content-center align-items-center"><i
+                                class="fa fa-navicon"></i></div>
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto">
+                        <div class="innerdivv">
+                            <a class="nav-link mx-4 my-1  text-center " aria-current="page" href="#">Home</a>
+                        </div>
+                        <div class="innerdiv">
+                            <a class="nav-link mx-4 my-1  text-center " aria-current="page" href="#">Home</a>
+                        </div>
+                        <div class="innerdiv">
+                            <a class="nav-link mx-4 my-1  text-center " aria-current="page" href="#">Home</a>
+                        </div>
+                        <div class="innerdiv">
+                            <a class="nav-link mx-4 my-1  text-center " aria-current="page" href="#">Home</a>
+                        </div>
+                        <div class="innerdiv">
+                            <a class="nav-link mx-4 my-1  text-center " aria-current="page" href="#">Home</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="locationsite mb-5 mt-3 ">
+        <div class="container  ">
+            <div class="container px-4 pt-4">
+                <div class="container  ">
+                    <div class="position-relative mb-5">
+                        <input type="text" class="w-100 locationinput mt-5" placeholder="Find your location..."
+                            id="search">
+                        <button class="btn btn-primary findbtn findbtnjs position-absolute">find</button>
+                    </div>
+                    <div class="container-floid  pt-5">
+                        <div class="row">
+                            <div class="col-lg-4 broadcast overflow-hidden px-0">
+                                <div class="day p-2 d-flex  justify-content-between align-items-center">
+                                    <p class="weekday"></p>
+                                    <p class="today_date">date</p>
+                                </div>
+                                <div class="broadcastinner p-4">
+                                    <p class="cairo cityname">cairo</p>
+                                    <h2 class="cele">26.4°C</h2>
+                                    <img src="./imgs/113.png" class="moon" alt="">
+                                    <p class="clear">clear</p>
+                                    <div class="d-flex w-75 justify-content-between align-items-center">
+                                        <div class="innericons d-flex justify-content-center ">
+                                            <img src="./imgs/icon-umberella@2x.png" alt="">
+                                            <p>20%</p>
+                                        </div>
+                                        <div class="innericons d-flex justify-content-center ">
+                                            <img src="./imgs/icon-wind@2x.png" alt="">
+                                            <p>18km/h</p>
+                                        </div>
+                                        <div class="innericons d-flex justify-content-center ">
+                                            <img src="./imgs/icon-compass@2x.png" alt="">
+                                            <p>East</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 broadcast middle px-0">
+                                <div class="day p-2 text-center">
+                                    <p class="secondweekday">Thursday</p>
+                                </div>
+                                <div
+                                    class="broadcastinner d-flex flex-column justify-content-center align-items-center">
+                                    <img class="sun moonnext" src="./imgs/113(1).png" alt="">
+                                    <h3 class="nextdaydeg day2high">41.2°C</h3>
+                                    <h5 class="afterdaydeg day2low">28.6°</h5>
+                                    <p class="clear seconddaysun">Sunny</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 broadcast  px-0">
+                                <div class="day p-2 text-center">
+                                    <p class="thirdweekday">Thursday</p>
+                                </div>
+                                <div
+                                    class="broadcastinner d-flex flex-column justify-content-center align-items-center">
+                                    <img class="sun moonthird" src="./imgs/113(1).png" alt="">
+                                    <h3 class="nextdaydeg day3high">41.2°C</h3>
+                                    <h5 class="afterdaydeg day3low">28.6°</h5>
+                                    <p class="clear thirddaysun">Sunny</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="overflow-auto">
+        <div class="container pt-5">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="position-relative mb-4">
+                        <input type="text" class="w-100 locationinput mt-5" placeholder="Find your location..."
+                            id="search">
+                        <button class="btn btn-primary findbtn position-absolute">find</button>
+                    </div>
+                </div>
+                <div class="col-md-4 col-6 ">
+                    <div class="d-flex h-100 justify-content-center align-items-center">
+                        <div class="iconborders d-flex justify-content-center align-items-center">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </div>
+                        <div class="iconborders d-flex justify-content-center align-items-center">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </div>
+                        <div class="iconborders d-flex justify-content-center align-items-center">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </div>
+                        <div class="iconborders d-flex justify-content-center align-items-center">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="mb-5 Copyright">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+        </div>
+    </footer>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
+
+<!-- 
+
+
+
+
+
+-->

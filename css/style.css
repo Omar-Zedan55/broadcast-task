@@ -1,0 +1,224 @@
+body {
+    background-color: #1E202B;
+}
+
+.nav-link {
+    color: white;
+}
+
+.iconborder:hover .fa-navicon {
+    color: #009AD8;
+}
+
+.iconborder:hover {
+    border: #009AD8 1px solid;
+}
+
+.logo {
+    width: 64px;
+    height: 38px;
+}
+
+.navbar-toggler-icon {
+    background-image: none;
+}
+
+.fa-navicon {
+    color: white;
+    font-size: 14px;
+    transition: all .4s;
+}
+
+.locationsite {
+    background-image: url(./../imgs/banner.png);
+    background-repeat: no-repeat;
+}
+
+.findbtn {
+    bottom: 5px;
+    right: 5px;
+    border-radius: 40px;
+    height: 55px;
+    background-color: #009AD8;
+    width: 120px;
+}
+
+.findbtn:hover {
+    background-color: #009AD8;
+
+}
+
+.iconborder {
+    width: 55px;
+    border-radius: 50%;
+    text-align: center;
+    height: 60px;
+    border: transparent 1px solid;
+    transition: all .5s;
+}
+
+.locationinput {
+    padding: 20px 50px 20px 20px;
+    background: #1e202b;
+    color: white;
+    border: none;
+    border-radius: 40px;
+}
+
+.locationinput:focus {
+    outline: none;
+}
+
+.weather {
+    color: #ffffff;
+    font-size: 20px;
+    margin: 0;
+    margin-left: 10%;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+/* .innerdiv {
+    background-color: #262936;
+    border-top: 1px #313440 solid;
+}
+
+.innerdivv {
+    margin-top: 40px;
+    background-color: #262936;
+
+} */
+
+.tagline {
+    color: #ffffff;
+    font-size: 10px;
+    margin: 0;
+    margin-left: 10%;
+
+
+}
+
+.broadcast {
+    background-color: #323544;
+}
+
+.day {
+    background-color: #2D303D;
+}
+
+.day p {
+    padding: 0;
+    margin: 0;
+}
+
+.cairo {
+    color: #bfc1c8;
+    font-size: 1.2857142857em;
+    font-weight: 400;
+
+}
+
+.cele {
+    color: white;
+    font-weight: 700;
+    font-size: 90px;
+
+}
+
+.moon {
+    width: 90px;
+}
+
+.clear {
+    color: #009AD8;
+}
+
+.innericons img {
+    width: 20px;
+    height: 20px;
+    margin-right: 3px;
+}
+
+.day p {
+    color: #bfc1c8;
+
+}
+
+.innericons p {
+    color: #bfc1c8;
+}
+
+.middle {
+    background-color: #262936;
+
+}
+
+.middle .day {
+    background-color: #222530;
+
+}
+
+.nextdaydeg {
+    color: white;
+}
+
+.afterdaydeg {
+    color: #bfc1c8;
+}
+
+.sun {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.footer {
+    background-color: #262936;
+}
+
+.subscripeinput {
+    padding-left: 20px;
+    width: 70%;
+}
+
+.iconborders {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #1E202B;
+    transition: all .5s;
+    cursor: pointer;
+    margin-left: 5px;
+
+}
+
+.fa-facebook-f {
+    font-size: 20px;
+    color: #12B7DE;
+    transition: all .5s;
+}
+
+.iconborders:hover {
+    background-color: #009AD8;
+
+}
+
+.iconborders:hover .fa-facebook-f {
+
+    color: white;
+}
+
+footer {
+    background-color: #262936;
+}
+
+.Copyright {
+    color: #bfc1c8;
+    ;
+}
