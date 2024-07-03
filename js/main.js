@@ -79,7 +79,7 @@ if (dayindex < 5) {
 
 function defaultdata() {
     var x = new XMLHttpRequest();
-    x.open("get", `https://api.weatherapi.com/v1/forecast.json?key=fedb1241a3814102a2963803240307&q=cairo&days=3`)
+    x.open("get", `https://api.weatherapi.com/v1/forecast.json?key=fedb1241a3814102a2963803240307&q=aswan&days=3`)
     x.send();
     x.addEventListener("loadend", function () {
         if (x.status >= 200 && x.status < 300) {
